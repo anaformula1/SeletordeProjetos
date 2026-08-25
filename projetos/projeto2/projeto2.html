@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KFC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: white;
+        }
+
+        #logo {
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        #botao:hover {
+            background: white !important;
+            color: rgb(190, 0, 0) !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="min-height:100vh;">
+
+        <header>
+            <nav class="navbar" style="height:10vh; background-color:rgb(190,0,0);">
+                <div class="container-fluid">
+                    <a id="logo" class="navbar-brand" href="#">
+                        <img src="./images/s-l1200 (1).jpg" width="45" height="45" alt="Logo KFC">
+                        KFC
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+
+            <section id="inicio" style="min-height:90vh; position:relative; overflow:hidden;">
+
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner" style="height:90vh;">
+
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="./images/13172-1.webp" class="d-block w-100"
+                                style="height:90vh; object-fit:cover;" alt="KFC Frango">
+                        </div>
+
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./images/feature-kfc.jpg.optimal.jpg" class="d-block w-100"
+                                style="height:90vh; object-fit:cover;" alt="KFC Balde">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./images/Kfc-doritos-cred-divulgacao.webp" class="d-block w-100"
+                                style="height:90vh; object-fit:cover;" alt="KFC Lanche">
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+
+                </div>
+
+                <div
+                    style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); display:flex; flex-direction:column; align-items:center; text-align:center;">
+
+                    <h1 style="background-color:black; color:white; padding:15px; border-radius:5px;">
+                        O sabor que conquistou o mundo!
+                    </h1>
+
+                    <h4 style="background-color:black; color:white; padding:10px; border-radius:5px;">
+                        Frango crocante, receitas especiais e muita tradição.
+                    </h4>
+
+                    <a href="#pagina2">
+                        <button id="botao" class="btn btn-danger mt-3" style="background-color:red;">
+                            Conheça o KFC
+                        </button>
+                    </a>
+
+                </div>
+
+            </section>
+            <section id="pagina2" style="min-height:100vh; background-color:rgb(245,245,245);"
+                class="d-flex justify-content-center align-items-center py-5">
+
+                <div class="container">
+
+                    <h1 class="text-center mb-5">
+                        Nosso Cardapio
+                    </h1>
+                    <div class="row mb-4">
+
+                        <div class="col-12 col-md-4 mb-4 mb-md-0">
+                            <div class="card h-100">
+                                <img src="./images/TERCA_BALDE_MEGA-copiar-2.webp" class="card-img-top"
+                                    style="height:43vh; object-fit:cover;" alt="Frango Original KFC">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        Frango Original
+                                    </h4>
+                                    <p class="card-text">
+                                        A famosa receita secreta com ervas e temperos criada pelo Coronel Sanders.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 mb-4 mb-md-0">
+                            <div class="card h-100">
+                                <img src="./images/PRECINHO_3.webp" class="card-img-top"
+                                    style="height:43vh; object-fit:cover;" alt="Batatas KFC">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        Batatas
+                                    </h4>
+                                    <p class="card-text">
+                                        Perfeitas para acompanhar e compartilhar momentos com amigos e família.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 mb-4 mb-md-0">
+                            <div class="card h-100">
+                                <img src="./images/crunch.webp" class="card-img-top"
+                                    style="height:43vh; object-fit:cover;" alt="Sanduíches KFC">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        Sanduíches
+                                    </h4>
+                                    <p class="card-text">
+                                        Opções crocantes e deliciosas para todos os gostos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- SEGUNDA FILEIRA -->
+                    <div class="row">
+
+                        <div class="col-12 col-md-4 mb-4 mb-md-0">
+                            <div class="card h-100">
+                                <img src="./images/3tiras.webp" class="card-img-top"
+                                    style="height:43vh; object-fit:cover;" alt="Tirinhas Crocantes">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        Tirinhas Crocantes
+                                    </h4>
+                                    <p class="card-text">
+                                        Filezinhos de frango 100% peito, empanados na hora e extremamente suculentos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 mb-4 mb-md-0">
+                            <div class="card h-100">
+                                <img src="./images/TERCA_BALDE_MEGA-copiar-2.webp" class="card-img-top"
+                                    style="height:43vh; object-fit:cover;" alt="Balde Familiar">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        Balde Familiar
+                                    </h4>
+                                    <p class="card-text">
+                                        O tamanho ideal para reunir a galera e garantir que ninguém fique com fome.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 mb-4 mb-md-0">
+                            <div class="card h-100">
+                                <img src="./images/sundae1.webp" class="card-img-top"
+                                    style="height:43vh; object-fit:cover;" alt="Sobremesas & Acompanhamentos">
+                                <div class="card-body">
+                                    <h4 class="card-title">
+                                        Sobremesas & Acompanhamentos
+                                    </h4>
+                                    <p class="card-text">
+                                        Combine suas refeições com opções de molhos exclusivos e sobremesas geladas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="pagina4" style="min-height:100vh; background-color:rgb(245, 245, 245);"
+                class="d-flex justify-content-center align-items-center">
+
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-6 mb-4 mb-md-0">
+                            <img src="./images/images (7).jpg" class="img-fluid rounded" alt="KFC">
+                        </div>
+
+                        <div class="col-12 col-md-6">
+
+                            <h1>
+                                Sobre
+                            </h1>
+                            <hr>
+                            <p>
+                                A história da marca é o pilar que sustenta sua autenticidade atual.
+                                Criada por Harland Sanders nos anos 1930, a empresa nasceu em um
+                                humilde posto de gasolina e sobreviveu à falência antes de virar
+                                franquia em 1952. Toda a identidade global até hoje é construída ao
+                                redor do "Coronel Sanders", de seu icónico balde de papelão e do
+                                segredo das 11 ervas e especiarias.
+                            </p>
+
+                            <h3>
+                                Valores Culturais e Expansão Global
+                            </h3>
+
+                            <p>
+                                Os valores internos da empresa focam na valorização das pessoas e no
+                                crescimento sustentável. Isso permitiu que a marca alcançasse uma forte
+                                presença global com milhares de restaurantes espalhados pelo mundo.
+                            </p>
+
+                            <h3>
+                                Missão
+                            </h3>
+
+                            <p>
+                                A missão do KFC é fazer o dia dos clientes. A marca busca entregar
+                                hospitalidade e manter a filosofia original do fundador de fazer o
+                                melhor trabalho possível para conquistar a confiança do público.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="pagina5" style="min-height:100vh; background-color:rgb(190,0,0);"
+                class="d-flex flex-column justify-content-center align-items-center">
+
+                <h1 class="text-white text-center">
+                    Encontre um KFC perto de você
+                </h1>
+
+                <hr style="color:white; width:300px;">
+
+                <p class="text-white">
+                    Veja nossa localização:
+                </p>
+
+                <div class="container d-flex justify-content-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1800.9090218330894!2d-49.292243261127496!3d-25.477750573010734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce32fe3b6f047%3A0x1a24c0c993cf847e!2sKFC%20-%20FRANGO%20FRITO!5e0!3m2!1spt-BR!2sbr!4v1787667442199!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin">
+                    </iframe>
+                </div>
+            </section>
+
+            <section id="pagina3" style="min-height: 100vh; background-color: rgb(214, 10, 10);"
+                class="d-flex justify-content-center align-items-center flex-column text-white">
+                <h1>
+                    Entre em contato pelo E-mail
+                </h1>
+                <hr style="width: 200px; color: white;">
+                <form style="width: 100%; max-width: 400px;">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">
+                            Email
+                        </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text text-white-50">
+                            Nunca compartilharemos seu e-mail com mais ninguém.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">
+                            Senha
+                        </label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">
+                            O email está correto?
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-dark w-100">
+                        Enviar
+                    </button>
+                </form>
+            </section>
+
+        </main>
+
+        <footer style="min-height:10vh; background-color:black;"
+            class="d-flex justify-content-center align-items-center">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#inicio">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#pagina2">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#pagina4">Sobre o KFC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#pagina5">Mapa</a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
